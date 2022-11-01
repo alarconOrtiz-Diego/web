@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    width: 100%;
+}
+
+#contenedorMenu {
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedorLogo {
+    padding-left: 8%;
+    padding-right: 25%;
+}
+
+#contenedorPags {
+    padding-left: 3%;
+}
+
+#contenedorBoton {
+    padding-left: 35%;
+}
+
+ul,
+li {
+    display: flex;
+    padding: 8%;
+}
+
+#contenedorImgPrincipal {
+    width: 40px;
+}
+
+#imgPrincipal {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorMain {
+    width: 100%;
+    padding-top: 13rem;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorMainTexto {
+    padding-left: 13%;
+    padding-top: 10%
+}
+
+.contenedorMainTexto2 {
+    padding-left: 27%;
+    padding-top: 10%
+}
+
+.contenedorMainImg {
+    padding-left: 13%;
+}
+
+#imgMain1{
+    width: 50rem;
+}
+
+#imgMain2{
+    width: 50rem;
+    padding-left: 4%;
+}
+
+@media (max-width: 1300px) {
+    #contenedorLogo {
+        padding-left: 5%;
+        padding-right: 20%;
+    }
+
+    #contenedorPags {
+        padding-left: 3%;
+    }
+
+    #contenedorBoton {
+        padding-left: 35%;
+    }
+
+    .contenedorMain {
+        width: 100%;
+        padding-top: 10rem;
+        display: inline-flex;
+    }
+    
+    .contenedorMainTexto {
+        padding-left: 13%;
+        padding-top: 10%
+    }
+    
+    .contenedorMainTexto2 {
+        padding-left: 22%;
+        padding-top: 10%
+    }
+    
+    .contenedorMainImg {
+        padding-left: 11%;
+    }
+    
+    #imgMain1{
+        width: 40rem;
+    }
+    
+    #imgMain2{
+        width: 40rem;
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 955px) {
+    #contenedorLogo {
+        padding-left: 5%;
+        padding-right: 8%;
+    }
+
+    #contenedorPags {
+        padding-left: 3%;
+    }
+
+    #contenedorBoton {
+        padding-left: 28%;
+    }
+
+    .contenedorMain {
+        width: 100%;
+        padding-top: 10rem;
+        display: inline-flex;
+    }
+    
+    .contenedorMainTexto {
+        padding-left: 13%;
+        padding-top: 10%
+    }
+    
+    .contenedorMainTexto2 {
+        padding-left: 22%;
+        padding-top: 10%
+    }
+    
+    .contenedorMainImg {
+        padding-left: 11%;
+    }
+    
+    #imgMain1{
+        width: 30rem;
+    }
+    
+    #imgMain2{
+        width: 30rem;
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 750px) {
+    #contenedorLogo {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #contenedorPags {
+        padding-left: 2%;
+    }
+
+    #contenedorBoton {
+        padding-left: 32%;
+    }
+
+    .contenedorMain {
+        width: 100%;
+        padding-top: 10rem;
+        display: block;
+    }
+    
+    .contenedorMainTexto {
+        padding-left: 48%;
+        padding-top: 10%
+    }
+    
+    .contenedorMainTexto2 {
+        padding-left: 48%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .contenedorMainImg {
+        padding-left: 17%;
+    }
+    
+    #imgMain1{
+        width: 30rem;
+    }
+    
+    #imgMain2{
+        width: 30rem;
+    }
+}
